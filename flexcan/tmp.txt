@@ -1,0 +1,78 @@
+.
+├── external
+│   └── canutils-4.0.6
+│       ├── Android.mk
+│       ├── candump.c
+│       ├── candump.c~
+│       └── cansend.c
+├── frameworks
+│   └── base
+│       ├── core
+│       │   └── java
+│       │       └── android
+│       │           └── os
+│       │               └── IFlexcanService.aidl
+│       └── service
+│           ├── java
+│           │   └── com
+│           │       └── android
+│           │           └── server
+│           │               ├── FlexcanService.java
+│           │               ├── Frame.java
+│           │               └── SystemServer.java
+│           └── jni
+│               ├── Android.mk
+│               └── com_android_server_FlexcanService.cpp
+├── hardware
+│   ├── libhardware
+│   │   └── include
+│   │       └── hardware
+│   │           └── flexcan.h
+│   └── mx5x
+│       └── libflexcan
+│           ├── Android.mk
+│           └── flexcan.c
+├── kernel
+│   └── drivers
+│       └── net
+│           └── can
+│               └── flexcan
+│                   ├── dev.c
+│                   ├── drv.c
+│                   └── mbm.c
+├── package
+│   └── app
+│       └── Flexcan
+│           ├── AndroidManifest.xml
+│           ├── Android.mk
+│           ├── assets
+│           ├── bin
+│           │   ├── classes
+│           │   │   └── com
+│           │   │       └── liujun
+│           │   │           ├── Flexcan.class
+│           │   │           ├── R$attr.class
+│           │   │           ├── R.class
+│           │   │           ├── R$drawable.class
+│           │   │           ├── R$id.class
+│           │   │           ├── R$layout.class
+│           │   │           └── R$string.class
+│           │   └── res
+│           ├── res
+│           │   ├── drawable-hdpi
+│           │   │   └── ic_launcher.png
+│           │   ├── drawable-ldpi
+│           │   │   └── ic_launcher.png
+│           │   ├── drawable-mdpi
+│           │   │   └── ic_launcher.png
+│           │   ├── layout
+│           │   │   └── main.xml
+│           │   └── values
+│           │       └── strings.xml
+│           └── src
+│               └── com
+│                   └── liujun
+│                       └── Flexcan.java
+└── tmp.txt
+
+43 directories, 32 files

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Flexcan!</string>
+    <string name="app_name">Flexcan</string>
+    <string name="button">send!!</string>
+    <string name="button1">dump!!</string>
+
+</resources>
